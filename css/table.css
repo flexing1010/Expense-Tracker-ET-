@@ -1,0 +1,78 @@
+main {
+  width: 100%;
+}
+
+.container {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__column {
+  border-right: 1px solid black;
+  padding: 5px 0;
+}
+
+.header__column:first-child {
+  width: 20%;
+}
+.header__column:nth-child(2) {
+  width: 55%;
+}
+.header__column:last-child {
+  border-right: none;
+  width: 25%;
+}
+
+.expense-lists li {
+  display: flex;
+  width: 100%;
+}
+
+li {
+  text-align: center;
+}
+
+li div {
+  padding: 5px 0;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+
+li div:first-child {
+  width: 20%;
+}
+li div:nth-child(2) {
+  width: 55%;
+}
+li div:last-child {
+  border-right: none;
+  width: 25%;
+}
+
+/* table {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+thead th:first-child {
+  width: 20%;
+}
+thead th:nth-child(2) {
+  width: 55%;
+}
+thead th:last-child {
+  width: 25%;
+}
+
+tbody tr {
+  text-align: center;
+} */
