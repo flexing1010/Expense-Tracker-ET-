@@ -53,11 +53,13 @@ li div:first-child {
 li div:nth-child(2) {
   width: 55%;
 }
-li div:last-child {
+li div:nth-child(3) {
   border-right: none;
-  width: 25%;
+  width: 20%;
 }
-
+li button {
+  width: 4%;
+}
 /* table {
   width: 100%;
   border-bottom: 1px solid black;
